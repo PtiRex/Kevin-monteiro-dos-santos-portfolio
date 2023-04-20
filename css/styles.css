@@ -165,10 +165,22 @@ h6, .h6 {
 }
 
 p {
+  padding-left:1rem;
+  padding-right:1rem;
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
+p1 {
+  margin-top: 5rem;
+  margin-bottom: 0;
+}
+p2 {
+  padding-left:0;
+  padding-right:1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 abbr[title] {
   -webkit-text-decoration: underline dotted;
           text-decoration: underline dotted;
@@ -1301,7 +1313,7 @@ progress {
   }
   .col-lg-8 {
     flex: 0 0 auto;
-    width: 66.66666667%;
+
   }
   .col-lg-9 {
     flex: 0 0 auto;
@@ -11013,7 +11025,12 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color white;
+
+}
+.portfolio2 {
+  background-color white;
+  filter: blur(100px);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
